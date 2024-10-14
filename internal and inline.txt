@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+        <html Lang="en">
+          <head>
+            <meta charset="UTF">
+             <!-- comment -->
+              <!--'ctrl+u'show page markup-->
+              <title>Index Page</title>
+              <style>
+
+                   h1{
+                         
+                    font-size: 48px;
+                    text-decoration: underline;
+                    font-family:papyrus;
+                  }
+
+                    h2{
+                         color:red;
+                         font-size:36px;
+                         text-decoration:underline;
+                         text-shadow:5px 5px 1px black;
+                       /* comment css  */
+                    }
+                     li{
+                         color:orange;
+                         font-size:16px;
+                         font-weight:bold;
+                         font-variant:small-caps;
+             
+                     }
+
+                     /* 
+                      p{
+                         color:black;
+                     }
+                   */
+                      .orange_text{
+                         color:orange;
+                      }
+                       /*makes text  have small-caps*/
+                       .small_cap_letter{
+                          font-variant:small-caps;
+                      }
+
+                       
+                          .large_text{
+                           font-size:48px;
+                        }
+
+                     .doc_header{
+                          width:250 px;
+                        /*line width,line type,color*/
+                          border:2px solid black; 
+                         
+
+                        }
+                     .doc_body{
+                          width:100%;
+                          color:crimson;
+                         border:5px solid blue;
+                        }
+                    .heavy_border{
+                       border:5px dashed red;
+                       padding:15px;
+                       margin:15px;
+                    }
+
+                 </style>
+                <!--dshanti comment -->
+          </head>
+          <body>
+              <!-- header div -->
+              <div class="doc_header">
+                 <h1 class="orange_text"> Favorite Food</h1>
+                 <div class=" flex_container">
+
+                   <div>snacks</div>
+                   <div>fruit</div>
+
+                   </div>
+
+              </div>
+              <!--- body div --->
+             <div class="doc_body">
+              <p>brown fox jumps over the lazy dog.</p>
+            <h2 style="color:blue;">Snacks</h2> 
+           <!--   <p>chips, ice cream, pop </p> -->
+
+            
+                 <ol>
+                 <!--  <li><a href="https://en.wikipedia.org/wiki/Chips" target="_blank">chips</a></li> -->
+                  <li><a href="images/chips.jpg" target="_blank"><img class ="heavy_border" src= "images/chips.jpg" alt= "pringles" width="25px"></a></li>
+                   <li><a href="https://en.wikipedia.org/wiki/Candy</a>candy</li>
+                   <li><span style=" color:black; "font-size:2em">ice cream</span></li>
+                   <li><span style="color:firebrick;">pops</span><li>
+                 </ol>
+   <h2 style="color: green;">fruit</h2>
+                      
+                  <ul>
+                      <a href="https://en.wikipedia.org/wiki/Apple" apple</a>
+                      <li><span style="color:darkgreen;">kiwi</span></li>
+                     <li class=small_caps_letter"><image src="images/grapes.jpg"</image>grape</li>
+                      <li class="orange_text small_cap_letter> plums</li>
+                      <li><span class="orange_text small_cap_letter large_text></span></li>
+                   </ul>
+</body>
+
+      </html>
